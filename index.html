@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Overpass:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="logo">
+            <img src="/assets/images/logo.svg" alt="logoImage" />
+          </div>
+          <nav class="navigation">
+            <ul class="menuList">
+              <li class="menuList__item"><a href="#">Home</a></li>
+              <li class="menuList__item"><a href="#">New</a></li>
+              <li class="menuList__item"><a href="#">Popular</a></li>
+              <li class="menuList__item"><a href="#">Trending</a></li>
+              <li class="menuList__item"><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+          <img
+            src="/assets/images/icon-menu.svg"
+            alt="menuImage"
+            class="menuImg"
+          />
+        </header>
+        <main class="main">
+          <section class="section section-main">
+            <picture>
+              <source
+                srcset="/assets/images/image-web-3-desktop.jpg"
+                media="(min-width:1024px)"
+              />
+              <img src="/assets/images/image-web-3-mobile.jpg" alt="image" />
+            </picture>
+            <div class="test">
+              <h1 class="section__heading">
+                The Bright Future of <br />
+                Web 3.0?
+              </h1>
+              <div class="test2">
+                <p class="text">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a href="#" class="btn">READ MORE</a>
+              </div>
+            </div>
+          </section>
+          <article class="new">
+            <h2 class="new__heading">New</h2>
+            <article class="new__info">
+              <h2 class="new__title">Hydrogen VS Electric Cars</h2>
+              <p class="new__subtitle">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </article>
+            <article class="new__info new__info-middle">
+              <h2 class="new__title">The Downsides of AI Artistry</h2>
+              <p class="new__subtitle">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </article>
+            <article class="new__info">
+              <h2 class="new__title">Is VC Funding Drying Up?</h2>
+              <p class="new__subtitle">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </article>
+          </article>
+        </main>
+        <footer class="footer">
+          <article class="footer__article">
+            <img
+              src="/assets/images/image-retro-pcs.jpg"
+              alt="footerImg"
+              class="footer__img"
+            />
+            <div class="footer__info">
+              <h2 class="footer__heading">01</h2>
+              <p class="footer__title">Reviving Retro PCs</p>
+              <p class="footer__subtitle">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </article>
+          <article class="footer__article">
+            <img
+              src="/assets/images/image-top-laptops.jpg"
+              alt="footerImg"
+              class="footer__img"
+            />
+            <div class="footer__info">
+              <h2 class="footer__heading">02</h2>
+              <p class="footer__title">Top 10 Laptops of 2022</p>
+              <p class="footer__subtitle">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </article>
+          <article class="footer__article">
+            <img
+              src="/assets/images/image-gaming-growth.jpg"
+              alt="footerImg"
+              class="footer__img"
+            />
+            <div class="footer__info">
+              <h2 class="footer__heading">03</h2>
+              <p class="footer__title">The Growth of Gaming</p>
+              <p class="footer__subtitle">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </article>
+        </footer>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
