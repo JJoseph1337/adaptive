@@ -10,8 +10,8 @@ menuImg.onclick = () => {
 
 function isMenuActive() {
     menuImg.classList.contains("menuImg-active")
-        ? menuImg.src = "/assets/images/icon-menu-close.svg"
-        : menuImg.src = "/assets/images/icon-menu.svg"
+        ? menuImg.src = "./assets/images/icon-menu-close.svg"
+        : menuImg.src = "./assets/images/icon-menu.svg"
 }
 
 function isMenuListActive() {
